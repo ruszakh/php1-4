@@ -23,7 +23,7 @@ $images = readImages();
         <img src="/images/<?php echo $img; ?>" alt="Wind Instrument">
     <?php } ?>
 
-    <form action="/functions/addImage.php" method="post" enctype="multipart/form-data">
+    <form action="/scripts/addImage.php" method="post" enctype="multipart/form-data">
         <input type="file" name="picture">
         <button type="submit">Отправить</button>
     </form>

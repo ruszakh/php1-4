@@ -21,7 +21,7 @@ $records = readRecords();
     }
     ?>
 
-    <form action="/functions/addMessage.php" method="post">
+    <form action="/scripts/addMessage.php" method="post">
         <textarea name="message"></textarea>
         <button type="submit">Отправить</button>
     </form>

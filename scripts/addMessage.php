@@ -1,6 +1,6 @@
 <?php
 
-include __DIR__ . '/readRecords.php';
+include __DIR__ . '/../functions/readRecords.php';
 
 $records = readRecords();
 
